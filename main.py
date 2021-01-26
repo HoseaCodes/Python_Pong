@@ -1,6 +1,7 @@
 from turtle import Screen
 from new_player import Player
 from score_board import Scoreboard
+from ball import Ball
 import time
 
 screen = Screen()
@@ -11,6 +12,7 @@ screen.tracer(0) # delay update
 
 player_one = Player((350, 0))
 player_two = Player((-350, 0))
+ball = Ball()
 scoreboard = Scoreboard()
 
 screen.listen()
